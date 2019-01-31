@@ -1,7 +1,10 @@
 # Intellij
 .idea/
+ChutesAndLadder.iml
 
 # Compiled code
 .out
 
+# MAC Stuff
 .DS_Store
+
