@@ -1,0 +1,7 @@
+# Intellij
+.idea/
+
+# Compiled code
+.out
+
+.DS_Store
