@@ -23,16 +23,26 @@ public class Square {
     public String toString() {
         return "Square - Square[" + this.position
                 + "] Type["
-                + this.getEventType()
+                + this.getEventTypeDescription()
                 + "] Offset[" + this.offset + "]";
     }
 
-    private String getEventType() {
+    public char getType() {
+        return this.type;
+    }
+
+    public int getOffset() {
+        return this.offset;
+    }
+
+    public String getEventTypeDescription() {
         switch (this.type) {
             case 'C':
-                return "Chutes";
+                return "CHUTES";
             case 'L':
-                return "Ladders";
+                return "LADDERS";
+            case 'N':
+                return "NONE";
             default:
                 return "Unknown";
         }

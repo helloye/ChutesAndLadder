@@ -3,7 +3,7 @@
 ChutesAndLadder.iml
 
 # Compiled code
-.out
+out/
 
 # MAC Stuff
 .DS_Store

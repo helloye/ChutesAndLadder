@@ -11,6 +11,18 @@ public class Player {
 
     @Override
     public String toString() {
-        return "Player Name: " + this.name + " @ Position:" + this.position;
+        return "Player Name: " + this.name + " @ Position: " + this.position;
+    }
+
+    public void setPosition(int p) {
+        this.position = p;
+    }
+
+    public int getPosition() {
+        return this.position;
+    }
+
+    public String getName() {
+        return this.name;
     }
 }
